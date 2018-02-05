@@ -1,7 +1,7 @@
 # KMUIMaker
 使用类似Masonry链式编程的方式初始化UIView、UIButton、UILabel、UIScrollview、UITextView、UITabelView...
 
-![](https://github.com/hkm5558/KMUIMaker/截图1.png)
+![image](https://github.com/hkm5558/KMUIMaker/blob/master/Screenshot/截图1.png)
 
 ## Installation with CocoaPods
 
@@ -95,4 +95,4 @@ $ pod install
     }];
     
 ```
-![](https://github.com/hkm5558/KMUIMaker/截图2.png)
+![image](https://github.com/hkm5558/KMUIMaker/blob/master/Screenshot/截图2.png)
