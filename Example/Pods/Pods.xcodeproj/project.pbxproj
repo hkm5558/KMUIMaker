@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031233831780470492FB9A029EEF778E /* UIButton+KMButtonMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 563AAB99F4ADB8C331DC5AC34E3CAD49 /* UIButton+KMButtonMaker.m */; };
+		03D27067EAF677DD8C12237B6B9A6486 /* KMTableViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E98F65F1AC3191658535F7FD653FEF4 /* KMTableViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0469324B19F3D97D4EBB317A4FA124CA /* Pods-KMUIMaker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28944D3D42DB550ACBED8F843D261B2B /* Pods-KMUIMaker_Tests-dummy.m */; };
+		04DEDBAE3775FCC16FA44BA99656FBFC /* KMTextViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DD3E534C66E15C6A8815F55EF60981 /* KMTextViewMaker.m */; };
+		0BCD2AA27C116F8CA6CEA6052CF12648 /* UITextField+KMTextFieldMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F64DAE154206226C556D2CEF1952E85 /* UITextField+KMTextFieldMaker.m */; };
+		13C953B345184BE094AAF4DEB4A5DFB7 /* UITableView+KMTableViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 822912BACA3D655FC90FB32C70FA8D80 /* UITableView+KMTableViewMaker.m */; };
+		16071327E0D73A427F700186EB2F0E58 /* Pods-KMUIMaker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67C043141082E32DF748F1FF8FAD7FE6 /* Pods-KMUIMaker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1674D6867A14F5E654329177FB10AE8E /* KMUIMaker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 942B071454A3DB11BB9A946083B98D93 /* KMUIMaker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		211477DA6E5B3ED7EE47C0D40DDC7DC9 /* KMLabelMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B3B471B58DA9041FEBD20936FE8CAF /* KMLabelMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22FC5897E2942F4855086C0AC754D29B /* KMUIMaker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9374A78561D715C65D9C88ED164CD4B1 /* KMUIMaker-dummy.m */; };
+		252AAF49E2D951D6CF3B11F3E3155FF7 /* UITextView+KMTextViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = D75F9E06AF64238AEC43FFF70C57B463 /* UITextView+KMTextViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A80D19650CAE0C3238CC04AEF2A829D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2F5AEE632F06F6E6789A1B2C331AA62F /* UIImageView+KMImageViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AEFBFCA4A1EDD221A95E0BA92531BD /* UIImageView+KMImageViewMaker.m */; };
+		36A4E0B0295C0444745B7B0CC47B3A52 /* KMCollectionViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD146DFDF788F99677FDEEDEC4E9315 /* KMCollectionViewMaker.m */; };
+		533959FD1B68C5A79A9C98086EAF2E64 /* UICollectionView+KMCollectionViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 2424DF198459AC152935440307F615DC /* UICollectionView+KMCollectionViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		543145EF47741356B2EDCD4FF57F09E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5B17636C3ED12873B6A938700AE39FCA /* UIScrollView+KMScrollViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 68252BC7D4C591E7231C53EC9771304E /* UIScrollView+KMScrollViewMaker.m */; };
+		6E5D34A66B1F08339D7701313EDBBD67 /* UICollectionView+KMCollectionViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ADC9B6140D5D7FD5943874468ADA21 /* UICollectionView+KMCollectionViewMaker.m */; };
+		6F09FB7353787115F9C5F32CE22B8D43 /* KMUIMakerHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C4C1884C8B72E15AF8BC6912F2249ED2 /* KMUIMakerHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74B185041E160FC8C1CCBAB25C4686A9 /* KMLabelMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D403F38B7A4D0E3454B28A62E3570DC /* KMLabelMaker.m */; };
+		83459500138735F4D840CA8E87B2E0B1 /* KMUIViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A0ACC69041CFF9A810680AB0C701B3 /* KMUIViewMaker.m */; };
+		860132701EE68151070F740D1575CCEB /* Pods-KMUIMaker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 518C835AA4C1BF88F5990F46E29CE5DD /* Pods-KMUIMaker_Example-dummy.m */; };
+		8D5AAA9A44A07B67F26209A741FC3315 /* KMTableViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F51001A190FFDB1392B7FA508691BFE /* KMTableViewMaker.m */; };
+		8FB0B5F6D25F6672734CC887B1FC2570 /* UITextField+KMTextFieldMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 94EA9B9CA6A1BFF9FE59025C6A5C665F /* UITextField+KMTextFieldMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9073640775A822CB0DA3C3C68B0F5790 /* KMUIControlMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 706E05A1935A25853F2E69D14C1BF182 /* KMUIControlMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		922E345723DDA67FC3A04AA980A4DBD7 /* UITableView+KMTableViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = BF541B60811891777B8AC82D324F71A9 /* UITableView+KMTableViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E0571A778CCFCF1A744416DD3E24AAA /* KMUIViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DAB08903F4B64EF9EE17389213E5A73 /* KMUIViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4B21EF498E37962B9F7B54FF2D39B70 /* UIImageView+KMImageViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E2B348E0A0AF047BE188FE5F6FC2ACA /* UIImageView+KMImageViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9C85E719147ECA3DD967B7FDF058802 /* KMButtonMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE245A826BEB086AF956D52247C7107 /* KMButtonMaker.m */; };
+		C142CD2CB2E2C0CBE185735A35DC46E6 /* UIView+KMUIViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6C497014BDFE8CA91D5F82C3AA2C7 /* UIView+KMUIViewMaker.m */; };
+		C16FB28EB321277E4A8FC13055EEEF65 /* KMCollectionViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = E047027A3E183337925DA83553C8A455 /* KMCollectionViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C539C8985489338E0BACF2E43E4C1264 /* KMTextFieldMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D00B055E7895D053BB2064AEF0BBA4B /* KMTextFieldMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C668F4EE51FBA302C1335DFFAD9D7E50 /* KMScrollViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = BA4E831EB148FFF568E5E5AC1DBFE967 /* KMScrollViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD55A08C3C37FF3A96556A61008EF5C0 /* KMTextViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = E354D75AC70B5837980F79EA3467466D /* KMTextViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D03A3D97A58D49DF4AD33D8CBEF1B76C /* KMScrollViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A69976009A83E25AEE11CFCB7D017CE1 /* KMScrollViewMaker.m */; };
+		D50D99CE5F962DDA179036136D0948FD /* KMImageViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BED970A426189F064080285C0E987E7 /* KMImageViewMaker.m */; };
+		D8EB690A60E41397F01A718F5C07AAFC /* UIButton+KMButtonMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BAE3F691D709670DC975968C81ABF01 /* UIButton+KMButtonMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA528CCC41A07809FD44D44D107FC970 /* KMButtonMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 152F2AB02E1231A1610E59C0921B271B /* KMButtonMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBFE66671C598A2C563DDB736AEC01A0 /* UIScrollView+KMScrollViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = FECDA96AB5C6060F360AC78C2BB87335 /* UIScrollView+KMScrollViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE28FB2C77E79EE01BED51B89174D71C /* UITextView+KMTextViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CE89FCE62980EE9146F04285391B66 /* UITextView+KMTextViewMaker.m */; };
+		EA784E5BCB760F8433D9AD7D8B2D6CED /* UILabel+KMLabelMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = C3E238CAF9F2EE575D1A759862312555 /* UILabel+KMLabelMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAEBC2663430AB9168721CE20EC037A4 /* Pods-KMUIMaker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C9C15F61D1EA5A3062672EFA055D3DD /* Pods-KMUIMaker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB41BA38EA9EFB1D3E49DC410676EC1E /* KMUIControlMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4166ED0B27D3132AC793EEAD9A068D /* KMUIControlMaker.m */; };
+		F638EBA3B388C7BD2EED4986BB46FDC9 /* UIView+KMUIViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CB3764DE9AD819FC5C7FEE2210EE0F5 /* UIView+KMUIViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7F34DCC21C1AD192B90E3996AA9D60A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FA461B83F8675224A1BF11A243110EA2 /* KMTextFieldMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D99ABD1D0A7E598EBCAD79A666B44 /* KMTextFieldMaker.m */; };
+		FA74F8A3403C057BFAF15F2BEB3262C6 /* KMImageViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = C2D246C3341C95D3CD1C23A119725D85 /* KMImageViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE4BE9122F4B1F9CFF84CA78FF454621 /* UILabel+KMLabelMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = F83C5F7BD48FFB243B6AD4D1800818EA /* UILabel+KMLabelMaker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		945BC23386A9D6854E37A18B1A8B94B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 788AC917FC2CEB5EDA12B28DFF8FC53E;
+			remoteInfo = KMUIMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07185F4B29F86F3CDC95CAED50F66BC8 /* Pods-KMUIMaker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KMUIMaker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		08CE89FCE62980EE9146F04285391B66 /* UITextView+KMTextViewMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+KMTextViewMaker.m"; sourceTree = "<group>"; };
+		0DB9E9407CCF0526E2B8D73725245623 /* Pods-KMUIMaker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KMUIMaker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		134D99ABD1D0A7E598EBCAD79A666B44 /* KMTextFieldMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KMTextFieldMaker.m; sourceTree = "<group>"; };
+		152F2AB02E1231A1610E59C0921B271B /* KMButtonMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KMButtonMaker.h; sourceTree = "<group>"; };
+		16A0ACC69041CFF9A810680AB0C701B3 /* KMUIViewMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KMUIViewMaker.m; sourceTree = "<group>"; };
+		1BD146DFDF788F99677FDEEDEC4E9315 /* KMCollectionViewMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KMCollectionViewMaker.m; sourceTree = "<group>"; };
+		1D00B055E7895D053BB2064AEF0BBA4B /* KMTextFieldMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KMTextFieldMaker.h; sourceTree = "<group>"; };
+		2424DF198459AC152935440307F615DC /* UICollectionView+KMCollectionViewMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+KMCollectionViewMaker.h"; sourceTree = "<group>"; };
+		26DD3E534C66E15C6A8815F55EF60981 /* KMTextViewMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KMTextViewMaker.m; sourceTree = "<group>"; };
+		28944D3D42DB550ACBED8F843D261B2B /* Pods-KMUIMaker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KMUIMaker_Tests-dummy.m"; sourceTree = "<group>"; };
+		2F51001A190FFDB1392B7FA508691BFE /* KMTableViewMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KMTableViewMaker.m; sourceTree = "<group>"; };
+		3362D0D1B6718D92D564D7384CE8D029 /* KMUIMaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KMUIMaker.framework; path = KMUIMaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36AE452B067F72BCBF7156A482BFB334 /* Pods-KMUIMaker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KMUIMaker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		39CC7FA220080A23F4C2686301BA15A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B252E200E52997187EEC7A8A12C6679 /* Pods-KMUIMaker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KMUIMaker_Example.modulemap"; sourceTree = "<group>"; };
+		3BED970A426189F064080285C0E987E7 /* KMImageViewMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KMImageViewMaker.m; sourceTree = "<group>"; };
+		3DAB08903F4B64EF9EE17389213E5A73 /* KMUIViewMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KMUIViewMaker.h; sourceTree = "<group>"; };
+		3FB68506544C7FD575C1FBCE159FE5E0 /* Pods-KMUIMaker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KMUIMaker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		426ED1DF05FB4C8B7EB19559BCD5DBCC /* KMUIMaker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KMUIMaker.xcconfig; sourceTree = "<group>"; };
+		4C9C15F61D1EA5A3062672EFA055D3DD /* Pods-KMUIMaker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KMUIMaker_Example-umbrella.h"; sourceTree = "<group>"; };
+		4FD6C497014BDFE8CA91D5F82C3AA2C7 /* UIView+KMUIViewMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+KMUIViewMaker.m"; sourceTree = "<group>"; };
+		518C835AA4C1BF88F5990F46E29CE5DD /* Pods-KMUIMaker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KMUIMaker_Example-dummy.m"; sourceTree = "<group>"; };
+		563AAB99F4ADB8C331DC5AC34E3CAD49 /* UIButton+KMButtonMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+KMButtonMaker.m"; sourceTree = "<group>"; };
+		5BAE3F691D709670DC975968C81ABF01 /* UIButton+KMButtonMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+KMButtonMaker.h"; sourceTree = "<group>"; };
+		5D9D6017EC762543B6019D1196EA7C39 /* Pods-KMUIMaker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KMUIMaker_Tests.modulemap"; sourceTree = "<group>"; };
+		5E71FE8045CBE6CC15DA1F36B38EDD3C /* Pods_KMUIMaker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KMUIMaker_Tests.framework; path = "Pods-KMUIMaker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F4166ED0B27D3132AC793EEAD9A068D /* KMUIControlMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KMUIControlMaker.m; sourceTree = "<group>"; };
+		61C5FD103F543BBD0FE6ECBF957E8333 /* Pods-KMUIMaker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KMUIMaker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67C043141082E32DF748F1FF8FAD7FE6 /* Pods-KMUIMaker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KMUIMaker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		68252BC7D4C591E7231C53EC9771304E /* UIScrollView+KMScrollViewMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+KMScrollViewMaker.m"; sourceTree = "<group>"; };
+		6E2B348E0A0AF047BE188FE5F6FC2ACA /* UIImageView+KMImageViewMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+KMImageViewMaker.h"; sourceTree = "<group>"; };
+		6F64DAE154206226C556D2CEF1952E85 /* UITextField+KMTextFieldMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+KMTextFieldMaker.m"; sourceTree = "<group>"; };
+		706E05A1935A25853F2E69D14C1BF182 /* KMUIControlMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KMUIControlMaker.h; sourceTree = "<group>"; };
+		775DE4C4EFEC29C2521164A2E5853AED /* Pods-KMUIMaker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KMUIMaker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		79BB7291AB75F04633749BFF060BA9AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		822912BACA3D655FC90FB32C70FA8D80 /* UITableView+KMTableViewMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+KMTableViewMaker.m"; sourceTree = "<group>"; };
+		831677E2BEA636F15C844973C3DA871E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84ADC9B6140D5D7FD5943874468ADA21 /* UICollectionView+KMCollectionViewMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+KMCollectionViewMaker.m"; sourceTree = "<group>"; };
+		8CB3764DE9AD819FC5C7FEE2210EE0F5 /* UIView+KMUIViewMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+KMUIViewMaker.h"; sourceTree = "<group>"; };
+		8FFE63313A8302DF0E9511774631CCC7 /* Pods-KMUIMaker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KMUIMaker_Tests-resources.sh"; sourceTree = "<group>"; };
+		9131C86AAAC60FB14C32AD490EA80392 /* Pods-KMUIMaker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KMUIMaker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9374A78561D715C65D9C88ED164CD4B1 /* KMUIMaker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KMUIMaker-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		942B071454A3DB11BB9A946083B98D93 /* KMUIMaker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KMUIMaker-umbrella.h"; sourceTree = "<group>"; };
+		94EA9B9CA6A1BFF9FE59025C6A5C665F /* UITextField+KMTextFieldMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+KMTextFieldMaker.h"; sourceTree = "<group>"; };
+		9D403F38B7A4D0E3454B28A62E3570DC /* KMLabelMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KMLabelMaker.m; sourceTree = "<group>"; };
+		9E98F65F1AC3191658535F7FD653FEF4 /* KMTableViewMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KMTableViewMaker.h; sourceTree = "<group>"; };
+		A69976009A83E25AEE11CFCB7D017CE1 /* KMScrollViewMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KMScrollViewMaker.m; sourceTree = "<group>"; };
+		A9BACE054185402924644EEE5A068892 /* Pods-KMUIMaker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KMUIMaker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AD9B01FE58EEEE7F74AF9C2B1FA79931 /* Pods-KMUIMaker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KMUIMaker_Example-resources.sh"; sourceTree = "<group>"; };
+		AFE245A826BEB086AF956D52247C7107 /* KMButtonMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KMButtonMaker.m; sourceTree = "<group>"; };
+		B7B3B471B58DA9041FEBD20936FE8CAF /* KMLabelMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KMLabelMaker.h; sourceTree = "<group>"; };
+		BA4E831EB148FFF568E5E5AC1DBFE967 /* KMScrollViewMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KMScrollViewMaker.h; sourceTree = "<group>"; };
+		BCF52F81C00986A0CDAE55AD269D5F19 /* KMUIMaker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KMUIMaker-prefix.pch"; sourceTree = "<group>"; };
+		BF541B60811891777B8AC82D324F71A9 /* UITableView+KMTableViewMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+KMTableViewMaker.h"; sourceTree = "<group>"; };
+		C2D246C3341C95D3CD1C23A119725D85 /* KMImageViewMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KMImageViewMaker.h; sourceTree = "<group>"; };
+		C3E238CAF9F2EE575D1A759862312555 /* UILabel+KMLabelMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+KMLabelMaker.h"; sourceTree = "<group>"; };
+		C4C1884C8B72E15AF8BC6912F2249ED2 /* KMUIMakerHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KMUIMakerHeader.h; path = KMUIMaker/Classes/KMUIMakerHeader.h; sourceTree = "<group>"; };
+		D0EB540D498274917410070E5148B44C /* Pods-KMUIMaker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KMUIMaker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D75F9E06AF64238AEC43FFF70C57B463 /* UITextView+KMTextViewMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+KMTextViewMaker.h"; sourceTree = "<group>"; };
+		DB5CD6050AAF753EBAA0FBAB0F7DE462 /* Pods_KMUIMaker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KMUIMaker_Example.framework; path = "Pods-KMUIMaker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E047027A3E183337925DA83553C8A455 /* KMCollectionViewMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KMCollectionViewMaker.h; sourceTree = "<group>"; };
+		E354D75AC70B5837980F79EA3467466D /* KMTextViewMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KMTextViewMaker.h; sourceTree = "<group>"; };
+		ED94F96014071ED3DFFA53DB8B4400B6 /* KMUIMaker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KMUIMaker.modulemap; sourceTree = "<group>"; };
+		F1AEFBFCA4A1EDD221A95E0BA92531BD /* UIImageView+KMImageViewMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+KMImageViewMaker.m"; sourceTree = "<group>"; };
+		F83C5F7BD48FFB243B6AD4D1800818EA /* UILabel+KMLabelMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+KMLabelMaker.m"; sourceTree = "<group>"; };
+		FB3D32BE3E6CC9E6D904EDDFD88C3D7C /* Pods-KMUIMaker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KMUIMaker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FECDA96AB5C6060F360AC78C2BB87335 /* UIScrollView+KMScrollViewMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+KMScrollViewMaker.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03EEB6180937BAC36D51A8AA37800115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543145EF47741356B2EDCD4FF57F09E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63584D2D61E39E6EBD1B9C6C25878CCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F34DCC21C1AD192B90E3996AA9D60A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D092D2C27FF2F593CA2C330DF50C4A98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A80D19650CAE0C3238CC04AEF2A829D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		085962D3895C5803AD5E893B25A08311 /* Pods-KMUIMaker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				79BB7291AB75F04633749BFF060BA9AC /* Info.plist */,
+				5D9D6017EC762543B6019D1196EA7C39 /* Pods-KMUIMaker_Tests.modulemap */,
+				36AE452B067F72BCBF7156A482BFB334 /* Pods-KMUIMaker_Tests-acknowledgements.markdown */,
+				07185F4B29F86F3CDC95CAED50F66BC8 /* Pods-KMUIMaker_Tests-acknowledgements.plist */,
+				28944D3D42DB550ACBED8F843D261B2B /* Pods-KMUIMaker_Tests-dummy.m */,
+				3FB68506544C7FD575C1FBCE159FE5E0 /* Pods-KMUIMaker_Tests-frameworks.sh */,
+				8FFE63313A8302DF0E9511774631CCC7 /* Pods-KMUIMaker_Tests-resources.sh */,
+				67C043141082E32DF748F1FF8FAD7FE6 /* Pods-KMUIMaker_Tests-umbrella.h */,
+				D0EB540D498274917410070E5148B44C /* Pods-KMUIMaker_Tests.debug.xcconfig */,
+				0DB9E9407CCF0526E2B8D73725245623 /* Pods-KMUIMaker_Tests.release.xcconfig */,
+			);
+			name = "Pods-KMUIMaker_Tests";
+			path = "Target Support Files/Pods-KMUIMaker_Tests";
+			sourceTree = "<group>";
+		};
+		195BBFE6B01EE368F562CD54D55567FA /* KMUIMakerCategory */ = {
+			isa = PBXGroup;
+			children = (
+				5BAE3F691D709670DC975968C81ABF01 /* UIButton+KMButtonMaker.h */,
+				563AAB99F4ADB8C331DC5AC34E3CAD49 /* UIButton+KMButtonMaker.m */,
+				2424DF198459AC152935440307F615DC /* UICollectionView+KMCollectionViewMaker.h */,
+				84ADC9B6140D5D7FD5943874468ADA21 /* UICollectionView+KMCollectionViewMaker.m */,
+				6E2B348E0A0AF047BE188FE5F6FC2ACA /* UIImageView+KMImageViewMaker.h */,
+				F1AEFBFCA4A1EDD221A95E0BA92531BD /* UIImageView+KMImageViewMaker.m */,
+				C3E238CAF9F2EE575D1A759862312555 /* UILabel+KMLabelMaker.h */,
+				F83C5F7BD48FFB243B6AD4D1800818EA /* UILabel+KMLabelMaker.m */,
+				FECDA96AB5C6060F360AC78C2BB87335 /* UIScrollView+KMScrollViewMaker.h */,
+				68252BC7D4C591E7231C53EC9771304E /* UIScrollView+KMScrollViewMaker.m */,
+				BF541B60811891777B8AC82D324F71A9 /* UITableView+KMTableViewMaker.h */,
+				822912BACA3D655FC90FB32C70FA8D80 /* UITableView+KMTableViewMaker.m */,
+				94EA9B9CA6A1BFF9FE59025C6A5C665F /* UITextField+KMTextFieldMaker.h */,
+				6F64DAE154206226C556D2CEF1952E85 /* UITextField+KMTextFieldMaker.m */,
+				D75F9E06AF64238AEC43FFF70C57B463 /* UITextView+KMTextViewMaker.h */,
+				08CE89FCE62980EE9146F04285391B66 /* UITextView+KMTextViewMaker.m */,
+				8CB3764DE9AD819FC5C7FEE2210EE0F5 /* UIView+KMUIViewMaker.h */,
+				4FD6C497014BDFE8CA91D5F82C3AA2C7 /* UIView+KMUIViewMaker.m */,
+			);
+			name = KMUIMakerCategory;
+			path = KMUIMaker/Classes/KMUIMakerCategory;
+			sourceTree = "<group>";
+		};
+		1D8DABBF0B8B5983008393CEAF0B529E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F33D210074178B3D0140055426AB8D21 /* KMUIMaker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6349D73547AB47874A0731A78758D098 /* Pods-KMUIMaker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				39CC7FA220080A23F4C2686301BA15A7 /* Info.plist */,
+				3B252E200E52997187EEC7A8A12C6679 /* Pods-KMUIMaker_Example.modulemap */,
+				A9BACE054185402924644EEE5A068892 /* Pods-KMUIMaker_Example-acknowledgements.markdown */,
+				FB3D32BE3E6CC9E6D904EDDFD88C3D7C /* Pods-KMUIMaker_Example-acknowledgements.plist */,
+				518C835AA4C1BF88F5990F46E29CE5DD /* Pods-KMUIMaker_Example-dummy.m */,
+				9131C86AAAC60FB14C32AD490EA80392 /* Pods-KMUIMaker_Example-frameworks.sh */,
+				AD9B01FE58EEEE7F74AF9C2B1FA79931 /* Pods-KMUIMaker_Example-resources.sh */,
+				4C9C15F61D1EA5A3062672EFA055D3DD /* Pods-KMUIMaker_Example-umbrella.h */,
+				61C5FD103F543BBD0FE6ECBF957E8333 /* Pods-KMUIMaker_Example.debug.xcconfig */,
+				775DE4C4EFEC29C2521164A2E5853AED /* Pods-KMUIMaker_Example.release.xcconfig */,
+			);
+			name = "Pods-KMUIMaker_Example";
+			path = "Target Support Files/Pods-KMUIMaker_Example";
+			sourceTree = "<group>";
+		};
+		7D95C26C43B7E3C3768117A8BF06DE75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3362D0D1B6718D92D564D7384CE8D029 /* KMUIMaker.framework */,
+				DB5CD6050AAF753EBAA0FBAB0F7DE462 /* Pods_KMUIMaker_Example.framework */,
+				5E71FE8045CBE6CC15DA1F36B38EDD3C /* Pods_KMUIMaker_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1D8DABBF0B8B5983008393CEAF0B529E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7D95C26C43B7E3C3768117A8BF06DE75 /* Products */,
+				B5789EDDC325C31FA5407E623F741C12 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A3BE0526D7112EE0A28BB28437F17526 /* KMUIMaker */ = {
+			isa = PBXGroup;
+			children = (
+				152F2AB02E1231A1610E59C0921B271B /* KMButtonMaker.h */,
+				AFE245A826BEB086AF956D52247C7107 /* KMButtonMaker.m */,
+				E047027A3E183337925DA83553C8A455 /* KMCollectionViewMaker.h */,
+				1BD146DFDF788F99677FDEEDEC4E9315 /* KMCollectionViewMaker.m */,
+				C2D246C3341C95D3CD1C23A119725D85 /* KMImageViewMaker.h */,
+				3BED970A426189F064080285C0E987E7 /* KMImageViewMaker.m */,
+				B7B3B471B58DA9041FEBD20936FE8CAF /* KMLabelMaker.h */,
+				9D403F38B7A4D0E3454B28A62E3570DC /* KMLabelMaker.m */,
+				BA4E831EB148FFF568E5E5AC1DBFE967 /* KMScrollViewMaker.h */,
+				A69976009A83E25AEE11CFCB7D017CE1 /* KMScrollViewMaker.m */,
+				9E98F65F1AC3191658535F7FD653FEF4 /* KMTableViewMaker.h */,
+				2F51001A190FFDB1392B7FA508691BFE /* KMTableViewMaker.m */,
+				1D00B055E7895D053BB2064AEF0BBA4B /* KMTextFieldMaker.h */,
+				134D99ABD1D0A7E598EBCAD79A666B44 /* KMTextFieldMaker.m */,
+				E354D75AC70B5837980F79EA3467466D /* KMTextViewMaker.h */,
+				26DD3E534C66E15C6A8815F55EF60981 /* KMTextViewMaker.m */,
+				706E05A1935A25853F2E69D14C1BF182 /* KMUIControlMaker.h */,
+				5F4166ED0B27D3132AC793EEAD9A068D /* KMUIControlMaker.m */,
+				3DAB08903F4B64EF9EE17389213E5A73 /* KMUIViewMaker.h */,
+				16A0ACC69041CFF9A810680AB0C701B3 /* KMUIViewMaker.m */,
+			);
+			name = KMUIMaker;
+			path = KMUIMaker/Classes/KMUIMaker;
+			sourceTree = "<group>";
+		};
+		B5789EDDC325C31FA5407E623F741C12 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6349D73547AB47874A0731A78758D098 /* Pods-KMUIMaker_Example */,
+				085962D3895C5803AD5E893B25A08311 /* Pods-KMUIMaker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F0B423E70B6584F3E0705ACE6A427DDE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				831677E2BEA636F15C844973C3DA871E /* Info.plist */,
+				ED94F96014071ED3DFFA53DB8B4400B6 /* KMUIMaker.modulemap */,
+				426ED1DF05FB4C8B7EB19559BCD5DBCC /* KMUIMaker.xcconfig */,
+				9374A78561D715C65D9C88ED164CD4B1 /* KMUIMaker-dummy.m */,
+				BCF52F81C00986A0CDAE55AD269D5F19 /* KMUIMaker-prefix.pch */,
+				942B071454A3DB11BB9A946083B98D93 /* KMUIMaker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KMUIMaker";
+			sourceTree = "<group>";
+		};
+		F33D210074178B3D0140055426AB8D21 /* KMUIMaker */ = {
+			isa = PBXGroup;
+			children = (
+				C4C1884C8B72E15AF8BC6912F2249ED2 /* KMUIMakerHeader.h */,
+				A3BE0526D7112EE0A28BB28437F17526 /* KMUIMaker */,
+				195BBFE6B01EE368F562CD54D55567FA /* KMUIMakerCategory */,
+				F0B423E70B6584F3E0705ACE6A427DDE /* Support Files */,
+			);
+			name = KMUIMaker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1CD96B08ED1FB303BA3F323E30B48913 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16071327E0D73A427F700186EB2F0E58 /* Pods-KMUIMaker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B4F591FDF24974DEB2E1AD2CC3A3996 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEBC2663430AB9168721CE20EC037A4 /* Pods-KMUIMaker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3BEDAE1ACB523FC90CE94C4674883B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA528CCC41A07809FD44D44D107FC970 /* KMButtonMaker.h in Headers */,
+				C16FB28EB321277E4A8FC13055EEEF65 /* KMCollectionViewMaker.h in Headers */,
+				FA74F8A3403C057BFAF15F2BEB3262C6 /* KMImageViewMaker.h in Headers */,
+				211477DA6E5B3ED7EE47C0D40DDC7DC9 /* KMLabelMaker.h in Headers */,
+				C668F4EE51FBA302C1335DFFAD9D7E50 /* KMScrollViewMaker.h in Headers */,
+				03D27067EAF677DD8C12237B6B9A6486 /* KMTableViewMaker.h in Headers */,
+				C539C8985489338E0BACF2E43E4C1264 /* KMTextFieldMaker.h in Headers */,
+				CD55A08C3C37FF3A96556A61008EF5C0 /* KMTextViewMaker.h in Headers */,
+				9073640775A822CB0DA3C3C68B0F5790 /* KMUIControlMaker.h in Headers */,
+				1674D6867A14F5E654329177FB10AE8E /* KMUIMaker-umbrella.h in Headers */,
+				6F09FB7353787115F9C5F32CE22B8D43 /* KMUIMakerHeader.h in Headers */,
+				9E0571A778CCFCF1A744416DD3E24AAA /* KMUIViewMaker.h in Headers */,
+				D8EB690A60E41397F01A718F5C07AAFC /* UIButton+KMButtonMaker.h in Headers */,
+				533959FD1B68C5A79A9C98086EAF2E64 /* UICollectionView+KMCollectionViewMaker.h in Headers */,
+				A4B21EF498E37962B9F7B54FF2D39B70 /* UIImageView+KMImageViewMaker.h in Headers */,
+				EA784E5BCB760F8433D9AD7D8B2D6CED /* UILabel+KMLabelMaker.h in Headers */,
+				DBFE66671C598A2C563DDB736AEC01A0 /* UIScrollView+KMScrollViewMaker.h in Headers */,
+				922E345723DDA67FC3A04AA980A4DBD7 /* UITableView+KMTableViewMaker.h in Headers */,
+				8FB0B5F6D25F6672734CC887B1FC2570 /* UITextField+KMTextFieldMaker.h in Headers */,
+				252AAF49E2D951D6CF3B11F3E3155FF7 /* UITextView+KMTextViewMaker.h in Headers */,
+				F638EBA3B388C7BD2EED4986BB46FDC9 /* UIView+KMUIViewMaker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		537B1F6C07DB787E0581E1705858EE27 /* Pods-KMUIMaker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA520672A1674BD4A17C337A334AED5E /* Build configuration list for PBXNativeTarget "Pods-KMUIMaker_Example" */;
+			buildPhases = (
+				58E2C2FAF08DA906CA72112FEBFEE2E3 /* Sources */,
+				D092D2C27FF2F593CA2C330DF50C4A98 /* Frameworks */,
+				7B4F591FDF24974DEB2E1AD2CC3A3996 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD6BA2F89B8652BAC4EEA94400B5B99E /* PBXTargetDependency */,
+			);
+			name = "Pods-KMUIMaker_Example";
+			productName = "Pods-KMUIMaker_Example";
+			productReference = DB5CD6050AAF753EBAA0FBAB0F7DE462 /* Pods_KMUIMaker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		788AC917FC2CEB5EDA12B28DFF8FC53E /* KMUIMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C70CA8A716C09B4DD6C69FFD2ABF220 /* Build configuration list for PBXNativeTarget "KMUIMaker" */;
+			buildPhases = (
+				5A3340C78E946EF2EF6804C8F31BC9D8 /* Sources */,
+				03EEB6180937BAC36D51A8AA37800115 /* Frameworks */,
+				B3BEDAE1ACB523FC90CE94C4674883B2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMUIMaker;
+			productName = KMUIMaker;
+			productReference = 3362D0D1B6718D92D564D7384CE8D029 /* KMUIMaker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C8A235E29C48007FEA93FD5D5C6948B /* Pods-KMUIMaker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C6202FCF26B5D567BBFE13683AE2A6 /* Build configuration list for PBXNativeTarget "Pods-KMUIMaker_Tests" */;
+			buildPhases = (
+				F72D98EF65F8E1DD78BF9878F59A9E31 /* Sources */,
+				63584D2D61E39E6EBD1B9C6C25878CCE /* Frameworks */,
+				1CD96B08ED1FB303BA3F323E30B48913 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KMUIMaker_Tests";
+			productName = "Pods-KMUIMaker_Tests";
+			productReference = 5E71FE8045CBE6CC15DA1F36B38EDD3C /* Pods_KMUIMaker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7D95C26C43B7E3C3768117A8BF06DE75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				788AC917FC2CEB5EDA12B28DFF8FC53E /* KMUIMaker */,
+				537B1F6C07DB787E0581E1705858EE27 /* Pods-KMUIMaker_Example */,
+				7C8A235E29C48007FEA93FD5D5C6948B /* Pods-KMUIMaker_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58E2C2FAF08DA906CA72112FEBFEE2E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860132701EE68151070F740D1575CCEB /* Pods-KMUIMaker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A3340C78E946EF2EF6804C8F31BC9D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C85E719147ECA3DD967B7FDF058802 /* KMButtonMaker.m in Sources */,
+				36A4E0B0295C0444745B7B0CC47B3A52 /* KMCollectionViewMaker.m in Sources */,
+				D50D99CE5F962DDA179036136D0948FD /* KMImageViewMaker.m in Sources */,
+				74B185041E160FC8C1CCBAB25C4686A9 /* KMLabelMaker.m in Sources */,
+				D03A3D97A58D49DF4AD33D8CBEF1B76C /* KMScrollViewMaker.m in Sources */,
+				8D5AAA9A44A07B67F26209A741FC3315 /* KMTableViewMaker.m in Sources */,
+				FA461B83F8675224A1BF11A243110EA2 /* KMTextFieldMaker.m in Sources */,
+				04DEDBAE3775FCC16FA44BA99656FBFC /* KMTextViewMaker.m in Sources */,
+				EB41BA38EA9EFB1D3E49DC410676EC1E /* KMUIControlMaker.m in Sources */,
+				22FC5897E2942F4855086C0AC754D29B /* KMUIMaker-dummy.m in Sources */,
+				83459500138735F4D840CA8E87B2E0B1 /* KMUIViewMaker.m in Sources */,
+				031233831780470492FB9A029EEF778E /* UIButton+KMButtonMaker.m in Sources */,
+				6E5D34A66B1F08339D7701313EDBBD67 /* UICollectionView+KMCollectionViewMaker.m in Sources */,
+				2F5AEE632F06F6E6789A1B2C331AA62F /* UIImageView+KMImageViewMaker.m in Sources */,
+				FE4BE9122F4B1F9CFF84CA78FF454621 /* UILabel+KMLabelMaker.m in Sources */,
+				5B17636C3ED12873B6A938700AE39FCA /* UIScrollView+KMScrollViewMaker.m in Sources */,
+				13C953B345184BE094AAF4DEB4A5DFB7 /* UITableView+KMTableViewMaker.m in Sources */,
+				0BCD2AA27C116F8CA6CEA6052CF12648 /* UITextField+KMTextFieldMaker.m in Sources */,
+				DE28FB2C77E79EE01BED51B89174D71C /* UITextView+KMTextViewMaker.m in Sources */,
+				C142CD2CB2E2C0CBE185735A35DC46E6 /* UIView+KMUIViewMaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72D98EF65F8E1DD78BF9878F59A9E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0469324B19F3D97D4EBB317A4FA124CA /* Pods-KMUIMaker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD6BA2F89B8652BAC4EEA94400B5B99E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KMUIMaker;
+			target = 788AC917FC2CEB5EDA12B28DFF8FC53E /* KMUIMaker */;
+			targetProxy = 945BC23386A9D6854E37A18B1A8B94B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEFC00BF953165A972F3A701ABDEF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0EB540D498274917410070E5148B44C /* Pods-KMUIMaker_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KMUIMaker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KMUIMaker_Tests/Pods-KMUIMaker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KMUIMaker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B4ED4953C8864B8A3189BB2059A5F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C5FD103F543BBD0FE6ECBF957E8333 /* Pods-KMUIMaker_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KMUIMaker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KMUIMaker_Example/Pods-KMUIMaker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KMUIMaker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5CC41BC135C83AE9E6B7C16ABFC09C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 775DE4C4EFEC29C2521164A2E5853AED /* Pods-KMUIMaker_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KMUIMaker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KMUIMaker_Example/Pods-KMUIMaker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KMUIMaker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7FCD25BB9AD9077A03444F8F6048BFEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 426ED1DF05FB4C8B7EB19559BCD5DBCC /* KMUIMaker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KMUIMaker/KMUIMaker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KMUIMaker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KMUIMaker/KMUIMaker.modulemap";
+				PRODUCT_NAME = KMUIMaker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A50BBC12DFB9E8CF2E4C3D57A60D0A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DB9E9407CCF0526E2B8D73725245623 /* Pods-KMUIMaker_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KMUIMaker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KMUIMaker_Tests/Pods-KMUIMaker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KMUIMaker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B494F47EB2D91070AD123C3C14CE0D58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 426ED1DF05FB4C8B7EB19559BCD5DBCC /* KMUIMaker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KMUIMaker/KMUIMaker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KMUIMaker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KMUIMaker/KMUIMaker.modulemap";
+				PRODUCT_NAME = KMUIMaker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C70CA8A716C09B4DD6C69FFD2ABF220 /* Build configuration list for PBXNativeTarget "KMUIMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B494F47EB2D91070AD123C3C14CE0D58 /* Debug */,
+				7FCD25BB9AD9077A03444F8F6048BFEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78C6202FCF26B5D567BBFE13683AE2A6 /* Build configuration list for PBXNativeTarget "Pods-KMUIMaker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEFC00BF953165A972F3A701ABDEF95 /* Debug */,
+				A50BBC12DFB9E8CF2E4C3D57A60D0A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA520672A1674BD4A17C337A334AED5E /* Build configuration list for PBXNativeTarget "Pods-KMUIMaker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4ED4953C8864B8A3189BB2059A5F7E /* Debug */,
+				5CC41BC135C83AE9E6B7C16ABFC09C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KMUIMaker_Example' do
+  pod 'KMUIMaker', :path => '../'
+
+  target 'KMUIMaker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

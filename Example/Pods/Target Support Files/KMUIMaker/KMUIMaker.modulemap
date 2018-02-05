@@ -1,0 +1,6 @@
+framework module KMUIMaker {
+  umbrella header "KMUIMaker-umbrella.h"
+
+  export *
+  module * { export * }
+}

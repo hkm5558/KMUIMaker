@@ -1,0 +1,16 @@
+PODS:
+  - KMUIMaker (0.0.1)
+
+DEPENDENCIES:
+  - KMUIMaker (from `../`)
+
+EXTERNAL SOURCES:
+  KMUIMaker:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KMUIMaker: 09fc7a10c69fd5d022f0417533a2d02cd1d047a5
+
+PODFILE CHECKSUM: 66413528d74d137a13e089b9ddc3fd6b1090a7b5
+
+COCOAPODS: 1.4.0.beta.2
