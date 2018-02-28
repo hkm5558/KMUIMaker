@@ -22,6 +22,11 @@ Then, run the following command:
 ```bash
 $ pod install
 ```
+
+## Requirements
+
+This library requires `iOS 8.0+`
+
 ## Architecture
 
 ### KMUIMaker
@@ -96,3 +101,12 @@ $ pod install
     
 ```
 ![image](https://github.com/hkm5558/KMUIMaker/blob/master/Screenshot/截图2.png)
+
+## Author
+
+hkm5558, SZHuangKM@163.com
+
+## License
+
+KMUIMaker is available under the MIT license. See the LICENSE file for more info.
+
